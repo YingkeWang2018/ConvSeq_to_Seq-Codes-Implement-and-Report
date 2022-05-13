@@ -1,0 +1,16 @@
+
+import torch
+
+EMBEDDING_SIZE_DEFAULT = 256
+HIDDEN_SIZE_DEFAULT = 128
+TEACHER_FORCE_DEFAULT = .5
+MAX_LEN_DEFAULT = 30
+DROP_OUT_DEFAULT = 0.1
+
+MAX_EPOCH_DEFAULT = 30       
+BATCH_SIZE_DEFAULT  = 100     
+
+RANDOM_SEED_DEFAULT=4321
+
+
+DEVICE_DEFAULT=torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')

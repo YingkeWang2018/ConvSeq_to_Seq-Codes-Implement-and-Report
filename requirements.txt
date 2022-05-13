@@ -1,0 +1,7 @@
+pytorch
+matplotlib
+numpy
+pandas
+torchtext
+dill
+spacy
